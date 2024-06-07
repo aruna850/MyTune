@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    margin: 10px;
+    padding: 200px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color:blue;
+    color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+	background-color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
